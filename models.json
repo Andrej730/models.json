@@ -1,0 +1,737 @@
+[
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4.1",
+      "limits": {
+        "max_context_window_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_prompt_tokens": 128000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gpt-4.1",
+    "is_chat_default": false,
+    "is_chat_fallback": true,
+    "model_picker_enabled": true,
+    "name": "GPT-4.1",
+    "object": "model",
+    "policy": {
+      "state": "enabled",
+      "terms": "Enable access to the latest GPT-4.1 model from OpenAI. [Learn more about how GitHub Copilot serves GPT-4.1](https://docs.github.com/en/copilot/using-github-copilot/ai-models/choosing-the-right-ai-model-for-your-task#gpt-41)."
+    },
+    "preview": false,
+    "version": "gpt-4.1-2025-04-14"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-5-mini",
+      "limits": {
+        "max_context_window_tokens": 264000,
+        "max_output_tokens": 64000,
+        "max_prompt_tokens": 128000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gpt-5-mini",
+    "is_chat_default": true,
+    "is_chat_fallback": false,
+    "model_picker_enabled": true,
+    "name": "GPT-5 mini",
+    "object": "model",
+    "policy": {
+      "state": "enabled",
+      "terms": "Enable access to the latest GPT-5 mini model from OpenAI. [Learn more about how GitHub Copilot serves GPT-5 mini](https://gh.io/copilot-openai)."
+    },
+    "preview": false,
+    "supported_endpoints": ["/chat/completions", "/responses"],
+    "version": "gpt-5-mini"
+  },
+  {
+    "billing": { "is_premium": true, "multiplier": 1 },
+    "capabilities": {
+      "family": "gpt-5",
+      "limits": {
+        "max_context_window_tokens": 400000,
+        "max_output_tokens": 128000,
+        "max_prompt_tokens": 128000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gpt-5",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": true,
+    "name": "GPT-5",
+    "object": "model",
+    "policy": {
+      "state": "enabled",
+      "terms": "Enable access to the latest GPT-5 model from OpenAI. [Learn more about how GitHub Copilot serves GPT-5](https://gh.io/copilot-openai)."
+    },
+    "preview": false,
+    "supported_endpoints": ["/chat/completions", "/responses"],
+    "version": "gpt-5"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-3.5-turbo",
+      "limits": {
+        "max_context_window_tokens": 16384,
+        "max_output_tokens": 4096,
+        "max_prompt_tokens": 12288
+      },
+      "object": "model_capabilities",
+      "supports": { "streaming": true, "tool_calls": true },
+      "tokenizer": "cl100k_base",
+      "type": "chat"
+    },
+    "id": "gpt-3.5-turbo",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "GPT 3.5 Turbo",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-3.5-turbo-0613"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-3.5-turbo",
+      "limits": {
+        "max_context_window_tokens": 16384,
+        "max_output_tokens": 4096,
+        "max_prompt_tokens": 12288
+      },
+      "object": "model_capabilities",
+      "supports": { "streaming": true, "tool_calls": true },
+      "tokenizer": "cl100k_base",
+      "type": "chat"
+    },
+    "id": "gpt-3.5-turbo-0613",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "GPT 3.5 Turbo",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-3.5-turbo-0613"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4o-mini",
+      "limits": {
+        "max_context_window_tokens": 128000,
+        "max_output_tokens": 4096,
+        "max_prompt_tokens": 12288
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gpt-4o-mini",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "GPT-4o mini",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4o-mini",
+      "limits": {
+        "max_context_window_tokens": 128000,
+        "max_output_tokens": 4096,
+        "max_prompt_tokens": 12288
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gpt-4o-mini-2024-07-18",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "GPT-4o mini",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-4o-mini-2024-07-18"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4",
+      "limits": {
+        "max_context_window_tokens": 32768,
+        "max_output_tokens": 4096,
+        "max_prompt_tokens": 32768
+      },
+      "object": "model_capabilities",
+      "supports": { "streaming": true, "tool_calls": true },
+      "tokenizer": "cl100k_base",
+      "type": "chat"
+    },
+    "id": "gpt-4",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "GPT 4",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-4-0613"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4",
+      "limits": {
+        "max_context_window_tokens": 32768,
+        "max_output_tokens": 4096,
+        "max_prompt_tokens": 32768
+      },
+      "object": "model_capabilities",
+      "supports": { "streaming": true, "tool_calls": true },
+      "tokenizer": "cl100k_base",
+      "type": "chat"
+    },
+    "id": "gpt-4-0613",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "GPT 4",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-4-0613"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4-turbo",
+      "limits": {
+        "max_context_window_tokens": 128000,
+        "max_output_tokens": 4096,
+        "max_prompt_tokens": 64000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true
+      },
+      "tokenizer": "cl100k_base",
+      "type": "chat"
+    },
+    "id": "gpt-4-0125-preview",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "GPT 4 Turbo",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-4-0125-preview"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4o",
+      "limits": {
+        "max_context_window_tokens": 128000,
+        "max_output_tokens": 4096,
+        "max_prompt_tokens": 128000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gpt-4o",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": true,
+    "name": "GPT-4o",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-4o-2024-11-20"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4o",
+      "limits": {
+        "max_context_window_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_prompt_tokens": 64000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gpt-4o-2024-11-20",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "GPT-4o",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-4o-2024-11-20"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4o",
+      "limits": {
+        "max_context_window_tokens": 128000,
+        "max_output_tokens": 4096,
+        "max_prompt_tokens": 128000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gpt-4o-2024-05-13",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "GPT-4o",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-4o-2024-05-13"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4o",
+      "limits": {
+        "max_context_window_tokens": 128000,
+        "max_output_tokens": 4096,
+        "max_prompt_tokens": 64000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gpt-4-o-preview",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "GPT-4o",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-4o-2024-05-13"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4o",
+      "limits": {
+        "max_context_window_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_prompt_tokens": 64000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gpt-4o-2024-08-06",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "GPT-4o",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-4o-2024-08-06"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4.1",
+      "object": "model_capabilities",
+      "supports": { "streaming": true },
+      "tokenizer": "o200k_base",
+      "type": "completion"
+    },
+    "id": "gpt-41-copilot",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": true,
+    "name": "GPT-4.1 Copilot",
+    "object": "model",
+    "preview": false,
+    "version": "gpt-41-copilot"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "grok-code",
+      "limits": {
+        "max_context_window_tokens": 128000,
+        "max_output_tokens": 64000,
+        "max_prompt_tokens": 128000
+      },
+      "object": "model_capabilities",
+      "supports": { "streaming": true, "tool_calls": true },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "grok-code-fast-1",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": true,
+    "name": "Grok Code Fast 1",
+    "object": "model",
+    "policy": {
+      "state": "enabled",
+      "terms": "Enable access to the latest Grok Code Fast 1 model from xAI. If enabled, you instruct GitHub Copilot to send data to xAI Grok Code Fast 1. [Learn more about how GitHub Copilot serves Grok Code Fast 1](https://docs.github.com/en/copilot/reference/ai-models/model-hosting#xai-models). During launch week, [promotional pricing is 0x](https://gh.io/copilot-grok-code-promo)."
+    },
+    "preview": false,
+    "version": "grok-code-fast-1"
+  },
+  {
+    "billing": { "is_premium": true, "multiplier": 1 },
+    "capabilities": {
+      "family": "gpt-5-codex",
+      "limits": {
+        "max_context_window_tokens": 400000,
+        "max_output_tokens": 128000,
+        "max_prompt_tokens": 128000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gpt-5-codex",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": true,
+    "name": "GPT-5-Codex (Preview)",
+    "object": "model",
+    "policy": {
+      "state": "enabled",
+      "terms": "Enable access to the latest GPT-5-Codex model from OpenAI. [Learn more about how GitHub Copilot serves GPT-5-Codex](https://gh.io/copilot-openai)."
+    },
+    "preview": true,
+    "supported_endpoints": ["/responses"],
+    "version": "gpt-5-codex"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "text-embedding-ada-002",
+      "limits": { "max_inputs": 512 },
+      "object": "model_capabilities",
+      "supports": {},
+      "tokenizer": "cl100k_base",
+      "type": "embeddings"
+    },
+    "id": "text-embedding-ada-002",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "Embedding V2 Ada",
+    "object": "model",
+    "preview": false,
+    "version": "text-embedding-3-small"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "text-embedding-3-small",
+      "limits": { "max_inputs": 512 },
+      "object": "model_capabilities",
+      "supports": {},
+      "tokenizer": "cl100k_base",
+      "type": "embeddings"
+    },
+    "id": "text-embedding-3-small",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "Embedding V3 small",
+    "object": "model",
+    "preview": false,
+    "version": "text-embedding-3-small"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "text-embedding-3-small",
+      "object": "model_capabilities",
+      "supports": {},
+      "tokenizer": "cl100k_base",
+      "type": "embeddings"
+    },
+    "id": "text-embedding-3-small-inference",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "Embedding V3 small (Inference)",
+    "object": "model",
+    "preview": false,
+    "version": "text-embedding-3-small"
+  },
+  {
+    "billing": { "is_premium": true, "multiplier": 1 },
+    "capabilities": {
+      "family": "claude-3.5-sonnet",
+      "limits": {
+        "max_context_window_tokens": 90000,
+        "max_output_tokens": 8192,
+        "max_prompt_tokens": 90000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "claude-3.5-sonnet",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": true,
+    "name": "Claude Sonnet 3.5",
+    "object": "model",
+    "policy": {
+      "state": "enabled",
+      "terms": "Enable access to the latest Claude 3.5 Sonnet model from Anthropic. [Learn more about how GitHub Copilot serves Claude 3.5 Sonnet](https://docs.github.com/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot)."
+    },
+    "preview": false,
+    "version": "claude-3.5-sonnet"
+  },
+  {
+    "billing": { "is_premium": true, "multiplier": 1 },
+    "capabilities": {
+      "family": "claude-sonnet-4",
+      "limits": {
+        "max_context_window_tokens": 216000,
+        "max_output_tokens": 16000,
+        "max_prompt_tokens": 128000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "claude-sonnet-4",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": true,
+    "name": "Claude Sonnet 4",
+    "object": "model",
+    "policy": {
+      "state": "enabled",
+      "terms": "Enable access to the latest Claude Sonnet 4 model from Anthropic. [Learn more about how GitHub Copilot serves Claude Sonnet 4](https://docs.github.com/en/copilot/using-github-copilot/ai-models/using-claude-sonnet-in-github-copilot)."
+    },
+    "preview": false,
+    "version": "claude-sonnet-4"
+  },
+  {
+    "billing": { "is_premium": true, "multiplier": 1 },
+    "capabilities": {
+      "family": "claude-sonnet-4.5",
+      "limits": {
+        "max_context_window_tokens": 144000,
+        "max_output_tokens": 16000,
+        "max_prompt_tokens": 128000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "claude-sonnet-4.5",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": true,
+    "name": "Claude Sonnet 4.5",
+    "object": "model",
+    "policy": {
+      "state": "enabled",
+      "terms": "Enable access to the latest Claude Sonnet 4.5 model from Anthropic. [Learn more about how GitHub Copilot serves Claude Sonnet 4.5](https://docs.github.com/en/copilot/using-github-copilot/ai-models/using-claude-sonnet-in-github-copilot)."
+    },
+    "preview": false,
+    "version": "claude-sonnet-4.5"
+  },
+  {
+    "billing": { "is_premium": true, "multiplier": 0.33 },
+    "capabilities": {
+      "family": "claude-haiku-4.5",
+      "limits": {
+        "max_context_window_tokens": 144000,
+        "max_output_tokens": 16000,
+        "max_prompt_tokens": 128000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "claude-haiku-4.5",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": true,
+    "name": "Claude Haiku 4.5",
+    "object": "model",
+    "policy": {
+      "state": "unconfigured",
+      "terms": "Enable access to the latest Claude Haiku 4.5 model from Anthropic. [Learn more about how GitHub Copilot serves Claude Haiku 4.5](https://gh.io/copilot-anthropic)."
+    },
+    "preview": false,
+    "version": "claude-haiku-4.5"
+  },
+  {
+    "billing": { "is_premium": true, "multiplier": 1 },
+    "capabilities": {
+      "family": "gemini-2.5-pro",
+      "limits": {
+        "max_context_window_tokens": 128000,
+        "max_output_tokens": 64000,
+        "max_prompt_tokens": 128000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gemini-2.5-pro",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": true,
+    "name": "Gemini 2.5 Pro",
+    "object": "model",
+    "policy": {
+      "state": "enabled",
+      "terms": "Enable access to the latest Gemini 2.5 Pro model from Google. [Learn more about how GitHub Copilot serves Gemini 2.5 Pro](https://docs.github.com/en/copilot/using-github-copilot/ai-models/choosing-the-right-ai-model-for-your-task#gemini-25-pro)."
+    },
+    "preview": false,
+    "version": "gemini-2.5-pro"
+  },
+  {
+    "billing": { "is_premium": false, "multiplier": 0 },
+    "capabilities": {
+      "family": "gpt-4.1",
+      "limits": {
+        "max_context_window_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_prompt_tokens": 128000
+      },
+      "object": "model_capabilities",
+      "supports": {
+        "parallel_tool_calls": true,
+        "streaming": true,
+        "tool_calls": true,
+        "vision": true
+      },
+      "tokenizer": "o200k_base",
+      "type": "chat"
+    },
+    "id": "gpt-4.1-2025-04-14",
+    "is_chat_default": false,
+    "is_chat_fallback": false,
+    "model_picker_enabled": false,
+    "name": "GPT-4.1",
+    "object": "model",
+    "policy": {
+      "state": "enabled",
+      "terms": "Enable access to the latest GPT-4.1 model from OpenAI. [Learn more about how GitHub Copilot serves GPT-4.1](https://docs.github.com/en/copilot/using-github-copilot/ai-models/choosing-the-right-ai-model-for-your-task#gpt-41)."
+    },
+    "preview": false,
+    "version": "gpt-4.1-2025-04-14"
+  }
+]
